@@ -1,10 +1,10 @@
 # My Personal Production Platform
 
-This repository contains my personal production platform, a full-stack portfolio application that will be developed and operated throughout the senior capstone.
+This repository contains my personal production platform: a full-stack portfolio application that will be developed and operated throughout the senior capstone class.
 
 ## Current Status
 
-The initial repository structure and Git/GitHub development workflow have been established.
+The initial repository structure, Git, and GitHub development workflow have been established.
 
 The frontend, backend, database, deployment environments, and other production capabilities will be added incrementally during the course.
 
