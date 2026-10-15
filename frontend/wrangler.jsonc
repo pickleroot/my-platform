@@ -1,3 +1,9 @@
 {
+    "name": "my-platform",
+    "compatability_date": "2026-10-12",
+    "main": "src/main.tsx",
+    "assets": {
+        "directory": "./dist"
+    },
     "previews": {}
 }
