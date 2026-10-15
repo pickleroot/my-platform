@@ -463,19 +463,19 @@ Verify what the user actually receives.
 
 Before considering the assignment complete, verify:
 
-- [ ] React + TypeScript frontend exists in `frontend/`
-- [ ] `frontend/README.md` documents local development, linting, and production builds
-- [ ] Engineering Notebook contains the React + TypeScript frontend entry
-- [ ] Frontend foundation PR was created and merged
+- [X] React + TypeScript frontend exists in `frontend/`
+- [X] `frontend/README.md` documents local development, linting, and production builds
+- [X] Engineering Notebook contains the React + TypeScript frontend entry
+- [X] Frontend foundation PR was created and merged
 - [ ] `npm run lint` succeeds
-- [ ] `npm run build` succeeds
-- [ ] Cloudflare Pages is connected to the GitHub repository
-- [ ] `main` is the production branch
-- [ ] Cloudflare Pages deployment is working
-- [ ] Custom production domain is working
-- [ ] A pull request produced a usable preview deployment
-- [ ] Preview deployment was checked before merging
-- [ ] Personal introduction was developed on its own feature branch
-- [ ] Personal introduction PR was reviewed through its preview deployment
-- [ ] The merged change appeared in production
+- [X] `npm run build` succeeds
+- [X] Cloudflare Pages is connected to the GitHub repository
+- [X] `main` is the production branch
+- [X] Cloudflare Pages deployment is working
+- [X] Custom production domain is working
+- [X] A pull request produced a usable preview deployment
+- [X] Preview deployment was checked before merging
+- [X] Personal introduction was developed on its own feature branch
+- [X] Personal introduction PR was reviewed through its preview deployment
+- [X] The merged change appeared in production
 - [ ] You understand the React/TypeScript code you submitted
