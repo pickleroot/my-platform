@@ -4,7 +4,20 @@ import NewsColumn from './components/NewsColumn';
 import ProfileFeature from './components/ProfileFeature';
 import NewspaperFooter from './components/NewspaperFooter';
 
+type ReportKind = 'bug' | 'feature'
+
+type Report = {
+  id: string
+  text: string
+  kind: ReportKind
+}
+
 export default function App() {
+  const sampleReport: Report = {
+    id: '1',
+    text: 'Navigation link is broken',
+    kind: 'bug'
+  }
   return (
     <>
       <a className="skip-link" href="#main-content">Skip to content</a>
@@ -20,6 +33,10 @@ export default function App() {
         </main>
         <NewspaperFooter />
       </div>
+      <section className="report-board">
+        <h2>Bugs & Feature Requests</h2>
+        <p>{sampleReport.text} ({sampleReport.kind})</p>
+      </section>
     </>
   );
 }
